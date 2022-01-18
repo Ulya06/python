@@ -32,7 +32,7 @@ print(result_exp)
 import math
 result_m_exp = math.pow(item_1, item_2)
 
- # 12. Вывести result_m_exp в консоль.
+ # 12. Вывести result_m_exp в консоль. 
 print(result_m_exp)
 
  # 13. Создать переменную result_s_root в которой вы найдёте квадратный корень любой из переменной item
