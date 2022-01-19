@@ -119,19 +119,19 @@ if currency_convertor:
     # target_currency = eur_item (в задании сказано сделать, но по факту не надо)
     target_currency_amount = 50
     currency_result = 0
-    if target_currency := 'eur':
+    elif target_currency := 'eur':
         currency_result = target_currency_amount / usd_eur_rate
         print(target_currency_amount, eur_item, '=', currency_result, usd_item)
-    if target_currency := 'uah':
+    elif target_currency := 'uah':
         currency_result = target_currency_amount / usd_uah_rate
         print(target_currency_amount, uah_item, '=', currency_result, usd_item)
-    if target_currency := 'chf':
+    elif target_currency := 'chf':
         currency_result = target_currency_amount / usd_chf_rate
         print(target_currency_amount, chf_item, '=', currency_result, usd_item)
-    if target_currency := 'rub':
+    elif target_currency := 'rub':
         currency_result = target_currency_amount / usd_rub_rate
         print(target_currency_amount, rub_item, '=', currency_result, usd_item)
-    if target_currency := 'byn':
+    elif target_currency := 'byn':
         currency_result = target_currency_amount / usd_byn_rate
         print(target_currency_amount, byn_item, '=', currency_result, usd_item)
     else:
